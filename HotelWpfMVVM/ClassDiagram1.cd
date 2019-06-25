@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HotelWpfMVVM.App" Collapsed="true">
+    <Position X="16.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.ReportCreator">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>ReportCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.AddClientCommand">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\AddClientCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.AddRoomCommand">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\AddRoomCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.CommandBase">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\CommandBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.DeleteClientCommand">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\DeleteClientCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.DeleteRoomCommand">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\DeleteRoomCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.ExportClientsCommand">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\ExportClientsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.ResetFilterClientCommand">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\ResetFilterClientCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.ResetFilterRoomCommand">
+    <Position X="14.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\ResetFilterRoomCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.SearchClientsCommand">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAGAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\SearchClientsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.SearchRoomsCommand">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\SearchRoomsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.UpdateClientCommand">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\UpdateClientCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.CMDs.UpdateRoomCommand">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMDs\UpdateRoomCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.HotelDBContext.ClientConfig">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotelDBContext\ClientConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.HotelDBContext.HotelContext">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAACEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotelDBContext\HotelContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.HotelDBContext.PersonConfig">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotelDBContext\PersonConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.HotelDBContext.RoomConfig">
+    <Position X="3" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotelDBContext\RoomConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.Miscellaneous.DateTimeToDateConverter" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Miscellaneous\XamlConverters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.Miscellaneous.RoomTypeConverter" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Miscellaneous\XamlConverters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.Miscellaneous.RoomFreeConverter" BaseTypeListCollapsed="true">
+    <Position X="4" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Miscellaneous\XamlConverters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.Model.Client">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAABAAAAAAAAAAAgAAAAAAAAAAAEA=</HashCode>
+      <FileName>Model\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.Model.Person">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEgAAAAAAAAEIIEAAAQAgAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Model\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.Model.Room" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAAAAABAICAAYAAAgAAEAJAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Room.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.Properties.Resources" Collapsed="true">
+    <Position X="16.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.Properties.Settings" Collapsed="true">
+    <Position X="15" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotelWpfMVVM.ViewModel.ClientsTabVM" BaseTypeListCollapsed="true">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwBAJAAAgAAAAQEIAUAhEABggAAAgAAAEAAAAABQAA=</HashCode>
+      <FileName>ViewModel\ClientsTabVM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HotelWpfMVVM.ViewModel.RoomsTabVM" BaseTypeListCollapsed="true">
+    <Position X="7" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAQAAAgARJACAIAAEggAAgAAgAACAAAAAAAgAgAQ=</HashCode>
+      <FileName>ViewModel\RoomsTabVM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="HotelWpfMVVM.Model.RoomTypes">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAABAAABAAAAEAIAA=</HashCode>
+      <FileName>Model\Room.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HotelWpfMVVM.Model.RoomsFree">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAI=</HashCode>
+      <FileName>Model\Room.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
